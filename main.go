@@ -1,8 +1,5 @@
 package main
-
-/*
-
-EXO 1
+import "fmt"
 
 func main() {
 	fmt.Println(exo.Ft_coin([]int{1, 2, 5}, 11)) // resultat : 3 car (11 == 5 + 5 + 1)
@@ -10,7 +7,6 @@ func main() {
 	fmt.Println(exo.Ft_coin([]int{1}, 0))        // resultat : 0
 }
 
-EXO 2
 
 func main() {
 	fmt.Println(exo.Ft_missing([]int{3, 1, 2}))                   // resultat : 0
@@ -18,7 +14,7 @@ func main() {
 	fmt.Println(exo.Ft_missing([]int{9, 6, 4, 2, 3, 5, 7, 0, 1})) // resultat : 8
 }
 
-EXO 3
+
 
 func main() {
 
@@ -27,7 +23,7 @@ func main() {
 	println(exo.Ft_non_overlap([][]int{{1, 2}, {1, 2}, {1, 2}}))         // resultat : 2
 }
 
-EXO 4
+
 
 func main() {
 	println(exo.Ft_profit([]int{7, 1, 5, 3, 6, 4})) // resultat : 5
@@ -37,7 +33,7 @@ func main() {
 }
 
 
-EXO 5
+
 
 	func main() {
 		println(exo.Ft_max_substring("abcabcbb")) // resultat : 3
@@ -46,11 +42,9 @@ EXO 5
 		// "b" est la plus grande sous chaine
 	}
 
-EXO 6
 
 func main() {
 	println(exo.Ft_min_window("ADOBECODEBANC", "ABC")) // resultat : "BANC"
 	println(exo.Ft_min_window("a", "aa"))              // resultat : ""
 }
 
-/*
